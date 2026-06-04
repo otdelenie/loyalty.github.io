@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Page</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+<div id="dashboard" class="dashboard">
+        <div class="dashboard-card">
+            <h2 class="text">Привет, <span id="current-user">User</span>!</h2>
+            <p class="text">Ваши баллы: <strong id="points-display">0</strong></p>
+            <button id="add-purchase-btn" class="btn">🛒 Совершить покупку (+1 балл)</button>
+            <button id="redeem-btn" class="btn">🎁 Получить бесплатный напиток (5 баллов)</button>
+            <p id="message-area"></p>
+            <button id="logout-btn" class="btn">🚪 Выйти</button>
+        </div>
+    </div>
+
+    <button id="back-btn" class="btn">← Back to main page</button>
+    <script src="user.js"></script>
+</body>
+</html>

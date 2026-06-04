@@ -7,13 +7,34 @@
     <title>Cafe</title>
 </head>
 <body>
+    <div class="blur"></div>
     <h1 class="title">Cafe</h1>
-    <div class="header">
-        <a class="btn" href="#">Sign In</a>
-        <a class="btn" href="#">Log In</a>
-
+    <div class="nav">
+        <button id="menu-btn" class="btn">View Menu</button>
+        <button id="sign-btn" class="btn" href="#">Sign Up</button>
+        <button id="log-btn" class="btn" href="#" onclick="logIn()">Log In</button>
+        <button id="join-btn" class="btn">Join our Loyalty Program</button>
     </div>
 
+    <div class="cont_form">
+    <div class="form">
+        <h2>Registration</h2>
+        <label for="username" class="label">Username:</label>
+        <input type="text" id="username" placeholder="Username" class="input">
+
+        <label for="phone" class="label" placeholder="Phone Number">Phone Number:</label>
+        <input id="phone" placeholder="Phone Number" class="input">
+
+    <div class="buttons">
+        <button id="submit" class="btn">Submit</button>
+        <button id="close" class="btn">Close</button>
+    </div>
+    </div>
+    </div>
+     
+
+
+    
 
     <script src="code.js"></script>
 </body>
